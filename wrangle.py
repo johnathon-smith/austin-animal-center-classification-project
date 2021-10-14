@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def get_intake_data():
     """
@@ -73,5 +75,16 @@ def get_event_data():
 
     #Merge the two dataframes together
     events = num_intakes.merge(right = num_outcomes, how = 'inner', on = 'Date')
+    
+    events = events.drop(columns = ['deaths', 'rto', 'rto_adoptions'])
 
     return events
+
+def get_dists(df):
+    """
+    This function will plot the individual variable distributions for the given dataframe.
+    """
+    for col in df.columns:
+            sns.histplot(x = col, data = df)
+            plt.title(col)
+            plt.show()
