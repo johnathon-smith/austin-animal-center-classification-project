@@ -60,19 +60,19 @@ __Data Dictionary__
 
 
 ##### Plan
-- [x]Write a README.md file that details my process, my findings, and instructions on how to recreate my project.
-- [x]Acquire the Ausin Animal Center data from the Austin Open Data Portal.
-- [x]Clean and prepare the Austin Animal Center data:
+- [x] Write a README.md file that details my process, my findings, and instructions on how to recreate my project.
+- [x] Acquire the Ausin Animal Center data from the Austin Open Data Portal.
+- [x] Clean and prepare the Austin Animal Center data:
     * There are two different data sets I had to use: Intakes and Outcomes
     * Prepare each individually
     * Create a common datetime index between the two of them
     * Merge them together
-- [x]Plot individual variable distributions
-- [x]Explore the data and look for long term trends and cyclic behavior.
-- [x]Set baseline using the Simple Average.
-- [x]Create and evaluate models on train and validate sets.
-- [x]Choose best model and evaluate it on test data set.
-- [x]Document conclusions, takeaways, and next steps in the Final Report Notebook.
+- [x] Plot individual variable distributions
+- [x] Explore the data and look for long term trends and cyclic behavior.
+- [x] Set baseline using the Simple Average.
+- [x] Create and evaluate models on train and validate sets.
+- [x] Choose best model and evaluate it on test data set.
+- [x] Document conclusions, takeaways, and next steps in the Final Report Notebook.
 
 ___
 
